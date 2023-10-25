@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>customerForm</title>
+    <style>
+        html{
+            background-color: grey;
+        }
+        .head{
+            color: white;
+            text-align: center;
+            background-color: black;
+        }
+        .parent{
+            border: 1px solid blue;
+            width: 565px;
+            height: 350px;
+            background-color: skyblue;
+            margin-top: 10px;
+            margin-left: 340px;
+        }
+        div,span{
+            margin: 5px;
+            padding:5px;
+        }
+        .foot{
+            margin-top: 60px;
+            text-align: center;
+            color: white;
+            background-color: black;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1 class="head">Customer Survey Form</h1>
+    <div class="parent">
+        <form>
+            <div>
+                <span>First Name: <input type="text" id="fname" placeholder="First Name" required/></span>
+                <span>Last Name: <input type="text" id="lname" placeholder="Last Name" required/></span></span>
+            </div>
+            <div>
+                <span>E-mail: <input type="email" id="email" placeholder="Email I'd" required></span>
+                <span>Mobile.No: <input type="text" id="mobileNo" placeholder="mobile number" required/></span>
+            </div>
+            <div>
+                Gender:
+                <input type="checkbox"  name="gender"> Male
+                <input type="checkbox"  name="gender"> Female
+            </div>
+            <div>
+                <span>D.O.B: <input type="date" id="dob" placeholder="date-of-birth" required/></span>
+                <span>choose a country:
+                    <select id="country" required>
+                        <option value="" >select</option>
+                        <option value="India" >India</option>
+                        <option value="USA" >USA</option>
+                        <option value="UK" >UK</option>
+                        <option value="China" >China</option>
+                        <option value="Egypt" >Egypt</option>
+                    </select>
+                </span>
+            </div>
+            <div>
+                Profession:
+                <input type="text" id="profession" placeholder="profession" required/>
+            </div>
+            <div>
+                Do you have any suggestions to improve our service?
+                <div>
+                    <textarea rows="4" cols="50" id="suggestions" placeholder="Enter text here..." required></textarea>
+                </div>
+            </div>
+            <div>
+                <span><input type="submit" value="Submit" onclick="showDetails()"/></span>
+                <span><input type="reset" value="Reset" onclick="resetDetails()"/></span>
+            </div>
+            
+        </form>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+    <footer class="foot">&copy;2023 All Rights Reserved</footer>
+</body>
+</html>
