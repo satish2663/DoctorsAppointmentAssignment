@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main_1 {
+public class RomanNumbertoInt {
     public static void main(String[] args) {
         System.out.println(romanToInt("IX"));
     }
