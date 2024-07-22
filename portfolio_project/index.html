@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Portfolio Website">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="navigateToSection('home')">Home</a></li>
+                <li><a href="#about" onclick="navigateToSection('about')">About</a></li>
+                <li><a href="#portfolio" onclick="navigateToSection('portfolio')">Portfolio</a></li>
+                <li><a href="#education" onclick="navigateToSection('education')">Education</a></li>
+                <li><a href="#experience" onclick="navigateToSection('experience')">Experience</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Showcasing my work and skills.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="./satish_passPhoto.jpg" alt="My Photo">
+            <div class="about-text">
+                <p>My name is SATISH KUMAR RAJAGARI.</p>
+                <p>Mobile: 9347808330, 8096771819</p>
+                <p>Email: sathishar8096@gmail.com</p>
+                <p>Here's a bit about me...<br>
+                    I am a passionate computer science graduate with software development, data science, and analysis experience. My real area of expertise is developing websites through HTML5, CSS3, JavaScript, and Node.js. I can also do some Python Java, and C as well. Here, I'm conversant with database administration using SQL and MongoDB and proficient in frameworks like Django and ReactJS. have the demonstrated ability to solve problems backed by hard data supported by excellent analytical and problem-solving skills. I am skilled at applying version control systems used in collaborative settings like GitHub or Git committed to helping create dynamic, agile environments for data-driven strategies.
+                </p>
+                <div class="social-media">
+                    <a href="http://www.linkedin.com/in/rajagari-satish-kumar" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/satish2663" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Work</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project 1: Prediction of Hepatitis Disease</h3>
+                <p>
+                    <h4>Project Overview:</h4>Developed a model to enhance hepatitis illness prediction accuracy using Support Vector Machine (SVM), ensuring robust performance in regression and classification tasks.
+
+                    <h4>Roles and Responsibilities:</h4>Executed Stratify K Fold Cross Validation for balanced dataset distribution, developed a streamlined model deployment process, conducted performance evaluations, and collaborated with medical professionals to integrate real-time data sources.
+
+                    <h4>Technologies Used:</h4>
+                    Python, SVM, Stratify K Fold Cross Validation, Data Integration, Model Deployment.
+
+                    <h4>Challenges and Solutions:</h4>
+                    Ensured balanced dataset distribution through Stratify K Fold Cross Validation, reduced deployment time and increased operational efficiency with a streamlined process, and improved predictive accuracy through collaboration with medical professionals and real-time data integration.
+
+                    <h4>Results and Impact:</h4>
+                    Achieved a 20% reduction in false positives and false negatives, increased operational efficiency, improved predictive accuracy by 25%, and maintained a minimum precision and recall within the first six months.
+                </p>
+            </div>
+            <div class="project">
+                <h3>Project 2: Personal Task Manager Web Application</h3>
+                <p>
+                    <h4>Project Overview:</h4>
+                    Spearheaded the development of a Personal Task Manager Web Application, leveraging a full-stack approach to increase user engagement within the first quarter.
+
+                    <h4>Roles and Responsibilities:</h4>
+                    Applied user authentication and authorization mechanisms, designed and executed a responsive web design strategy, established efficient data storage solutions using SQL databases, and deployed task filtering and sorting features.
+
+                    <h4>Technologies Used:</h4>
+                    HTML, CSS, JavaScript, ReactJS, Node.js, SQL.
+
+                    <h4>Challenges and Solutions:</h4>
+                    Ensured secure access through user authentication and authorization, improved user satisfaction with a responsive design strategy, decreased data retrieval time and ensured data integrity using SQL databases, and enhanced user productivity by enabling efficient task organization and prioritization.
+
+                    <h4>Results and Impact:</h4>
+                    Achieved a 15% reduction in security vulnerabilities, improved user satisfaction metrics, decreased data retrieval time, and increased user task completion rates by 18%.
+                </p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="education-container">
+          <div class="education-item">
+              <h3>Srinivasa Ramanujan Institute of Technology</h3>
+              <p>Bachelor of Technology in Computer Science and Engineering</p>
+              <p>2019 - 2023</p>
+              <p>Anantapur, Andhra Pradesh</p>
+          </div>
+          <!-- Add more education items if needed -->
+      </div>
+  </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <p>I have done an Internship at Tech Octanet Services Pvt Ltd for the role of Python Developer Intern.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
